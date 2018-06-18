@@ -1,0 +1,7 @@
+#This is a sample Image
+FROM ubuntu
+MAINTAINER hugog.valin@gmail.com
+
+RUN apt-get update
+RUN apt-get -y install nginx && apt-get clean
+CMD ["echo", "Image created"]

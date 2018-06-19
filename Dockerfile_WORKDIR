@@ -1,0 +1,4 @@
+FROM ubuntu
+MAINTAINER hugog.valin@gmail.com
+WORKDIR /newtemp
+CMD pwd

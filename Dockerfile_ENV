@@ -1,0 +1,3 @@
+FROM ubuntu
+MAINTAINER hugog.valin@gmail.com
+ENV var1=Tutorial var2=point

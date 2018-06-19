@@ -1,0 +1,3 @@
+FROM ubuntu
+MAINTAINER hugog.valin@gmail.com
+ENTRYPOINT ["echo"]
